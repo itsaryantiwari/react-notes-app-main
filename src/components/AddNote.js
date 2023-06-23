@@ -14,8 +14,10 @@ export default function AddNote({ handleNoteText, handleAddNote, noteText }) {
         maxLength="250"
       ></textarea>
       <div className="note-footer">
-        <small>Remaining: {250 - noteText.length}</small>
-        <button onClick={handleAddNote} className="save">Save</button>
+        <small>Remaining: {100 - noteText.length}</small>
+        <button onClick={handleAddNote} className="save">
+          Save
+        </button>
       </div>
     </div>
   );
