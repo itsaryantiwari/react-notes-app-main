@@ -198,7 +198,7 @@ code {
 
  .dark-mode{
   min-height: 100vh;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.83);
  }
  .dark-mode .header{
   color: white;

@@ -8,7 +8,7 @@ function App() {
   const [myNotes, setMyNotes] = useState([]);
   const [noteText, setNoteText] = useState("");
   const [searchText, setSearchText] = useState("");
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   function updateNote(text) {
     setNoteText(text);
