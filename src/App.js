@@ -8,16 +8,16 @@ function App() {
   const [myNotes, setMyNotes] = useState([]);
   const [noteText, setNoteText] = useState("");
   const [searchText, setSearchText] = useState("");
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   function updateNote(text) {
     setNoteText(text);
   }
 
   function addNote() {
-    if (noteText.trim().length === 0) {
+    if (noteText.trim().length === !0) {
       alert("Add Some Text First");
-      setNoteText('')
+      setNoteText("");
     } else {
       const date = new Date().toLocaleDateString();
 

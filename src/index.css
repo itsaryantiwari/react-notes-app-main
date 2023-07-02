@@ -198,7 +198,7 @@ code {
 
  .dark-mode{
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.83);
+  background-color: #212121;
  }
  .dark-mode .header{
   color: white;
@@ -208,7 +208,7 @@ code {
  }
 
  .dark-mode .note{
-  background-color: rgb(53, 53, 53);
+  background-color: #463f3f;
   color: white !important;
  }
  .dark-mode .search-icon{
